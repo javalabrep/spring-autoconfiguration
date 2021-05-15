@@ -1,0 +1,6 @@
+enable:
+  service:
+    internal: true
+    public: false
+
+debug: true
