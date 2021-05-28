@@ -10,5 +10,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 @ConditionalOnProperty(prefix = "enable", name = "service.public", havingValue = "true")
-public @interface CondionalOnMyPublicServiceEnable {
+public @interface ConditionalOnMyPublicServiceEnabled {
 }

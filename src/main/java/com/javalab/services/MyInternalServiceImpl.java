@@ -1,6 +1,6 @@
 package com.javalab.services;
 
-public class MyInternalServiceImpl implements MyInternalSrevice{
+public class MyInternalServiceImpl implements MyInternalService {
 
     @Override
     public String printInternal(){
