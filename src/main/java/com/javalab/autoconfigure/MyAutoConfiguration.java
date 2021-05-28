@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnMissingClass("com.javalab.conditions.MyConditionClass")
+//@ConditionalOnMissingClass("com.javalab.conditions.MyConditionClass")
 @ConditionalOnResource(resources = "classpath:application.yaml")
 public class MyAutoConfiguration {
 
